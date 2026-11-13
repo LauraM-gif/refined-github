@@ -1,3 +1,4 @@
+
 ---
 name: verify-in-browser
 description: Required before opening ANY pull request in the Refined GitHub repo (bug fix, feature, CSS tweak, selector update, dependency bump touching a feature). Loads the built extension into a real Chromium, reproduces the bug on github.com with a screenshot, applies the fix, proves it with a second screenshot, and attaches both to the PR. Use whenever you are about to fix an issue, write a PR description, or claim a change "works". A PR without before/after screenshots from the real site will be closed.
